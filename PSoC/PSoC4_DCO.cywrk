@@ -8,6 +8,7 @@
 <files />
 <projects>
 <v>.\PSoC4_DCO.cydsn\PSoC4_DCO.cyprj</v>
+<v>.\I2C_Slave_Test.cydsn\I2C_Slave_Test.cyprj</v>
 </projects>
 <workspace_id v="04a73ceb-89ce-4094-a28f-56d3c91b8967" />
 <WriteAppVersionLastSavedWith v="3.3.0.7343" />

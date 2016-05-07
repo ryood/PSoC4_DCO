@@ -12,6 +12,9 @@
 #include <project.h>
 #include "scaleTable10.h"
 
+#define TITLE_STR1          "PSoC4 DCO"
+#define TITLE_STR2          "20160507"
+
 #define SAMPLING_CLOCK      12000000ul
 
 #define WAVESHAPE_SQUARE    0
@@ -24,26 +27,29 @@ volatile uint8 flag;
 uint8 waveShape = WAVESHAPE_SAW;
 uint8 noteNumber;
 int32 frequency10;
+uint8 squareDuty = 128;
 
-int cnt1, cnt2 = 69;
+int cnt1, cnt2 = 69, cnt3;
 
-CY_ISR(ISR_Timer_Sampling_handler)
+CY_ISR(ISR_Saw_handler)
 {
     Pin_Check1_Write(flag);
     flag = flag ? 0 : 1;
     
     count++;
     IDAC8_SetValue(count);
-/*    
-    switch (waveShape) {
-    case WAVESHAPE_SQUARE:
-        break;
-    case WAVESHAPE_SAW:
-        break;
-    default:
-        ;
-    }
-*/    
+ 
+    Timer_Sampling_ClearInterrupt(Timer_Sampling_INTR_MASK_TC);
+}
+
+CY_ISR(ISR_Square_handler)
+{
+    Pin_Check2_Write(flag);
+    flag = flag ? 0 : 1;
+    
+    count++;
+    IDAC8_SetValue((count / squareDuty) ? 255 : 0);    
+    
     Timer_Sampling_ClearInterrupt(Timer_Sampling_INTR_MASK_TC);
 }
 
@@ -60,28 +66,23 @@ int main()
 //    UART_UartPutString("Put Note Number\r\n");
 //    
     LCD_Char_Start();
-    LCD_Char_PrintString("Hello");
-    CyDelay(500);
+    LCD_Char_PrintString(TITLE_STR1);
+    LCD_Char_Position(1, 0);
+    LCD_Char_PrintString(TITLE_STR2);
+    CyDelay(2000);
 
-    LCD_Char_PrintString("before idac8");
     IDAC8_Start();
     Opamp_IV_Conv_Start();
     
-    LCD_Char_Position(0, 0);
-    LCD_Char_PrintString("before timer ");
-    
     Timer_Sampling_Start();
-    ISR_Timer_Sampling_StartEx(ISR_Timer_Sampling_handler);
+    ISR_Timer_Sampling_StartEx(ISR_Saw_handler);
     
-    LCD_Char_Position(0, 0);
-    LCD_Char_PrintString("init ok");
+    LCD_Char_ClearDisplay();
+    LCD_Char_PrintString("Initialize OK.");
     
     for(;;)
     {
         /* Place your application code here. */
-        /*
-
-        */
                 
         if (Pin_SW1_Read() == 0u) {
             cnt1++;
@@ -93,9 +94,21 @@ int main()
         
         if (noteNumber >= 128) {
             noteNumber = 127;
+            cnt1 = 0;
+            cnt2 = 127;
         }
+        
+        if (Pin_SW3_Read() == 0u) {
+            cnt3++;
+            if (cnt3 % 2) {
+                ISR_Timer_Sampling_StartEx(ISR_Square_handler);
+            } else {
+                ISR_Timer_Sampling_StartEx(ISR_Saw_handler);
+            }
+        }
+        
         frequency10 = scaleTable10[noteNumber];
-        timerPeriod = (int64)SAMPLING_CLOCK * 10 / (frequency10 * 256);
+        timerPeriod = SAMPLING_CLOCK * 10 / (frequency10 * 256);
         
         Timer_Sampling_WritePeriod(timerPeriod);
 
@@ -107,12 +120,14 @@ int main()
         LCD_Char_Position(1, 0);
         LCD_Char_PrintString("P:");
         LCD_Char_PrintNumber(timerPeriod);
-        LCD_Char_PrintString(" :");
+        LCD_Char_PrintString(" ");
         LCD_Char_PrintNumber(cnt1);
         LCD_Char_PrintString(" :");
         LCD_Char_PrintNumber(cnt2);
+        LCD_Char_PrintString(" :");
+        LCD_Char_PrintNumber(cnt3);
 
-        CyDelay(100);
+        CyDelay(200);
     }
 }
 
