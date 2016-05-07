@@ -47,6 +47,16 @@
 <v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW3\Pin_SW3.h</v>
 <v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW3\Pin_SW3_aliases.h</v>
 <v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW3\Pin_SW3_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW4</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW4\Pin_SW4.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW4\Pin_SW4.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW4\Pin_SW4_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW4\Pin_SW4_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW5</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW5\Pin_SW5.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW5\Pin_SW5.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW5\Pin_SW5_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW5\Pin_SW5_PM.c</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>PSoC4_DCO</v>
@@ -95,7 +105,7 @@
 <v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW3\Pin_SW3.h</v>
 <v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW3\Pin_SW3_aliases.h</v>
 <v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW3\Pin_SW3_PM.c</v>
-<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_Wave_Out</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW4</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -164,6 +174,10 @@
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW2_PM.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW3.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW3_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW4.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW4_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW5.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW5_PM.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Wave_Out.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Wave_Out_PM.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling.lst</v>
@@ -230,9 +244,9 @@
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW2_PM.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW3.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW3_PM.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Wave_Out.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Wave_Out_PM.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW4.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW4_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW5.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>

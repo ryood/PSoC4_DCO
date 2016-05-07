@@ -7,6 +7,8 @@
  * CONFIDENTIAL AND PROPRIETARY INFORMATION
  * WHICH IS THE PROPERTY OF your company.
  *
+ * 2016.05.07 Created
+ *
  * ========================================
 */
 #include <project.h>
@@ -107,25 +109,33 @@ int main()
             }
         }
         
+        if (Pin_SW4_Read() == 0u) {
+            squareDuty -= 10;
+        }
+        if (Pin_SW5_Read() == 0u) {
+            squareDuty += 10;
+        }
+                
         frequency10 = scaleTable10[noteNumber];
         timerPeriod = SAMPLING_CLOCK * 10 / (frequency10 * 256);
         
         Timer_Sampling_WritePeriod(timerPeriod);
 
         LCD_Char_ClearDisplay();
-        LCD_Char_PrintString("Note:");
+        LCD_Char_PrintString("N");
         LCD_Char_PrintNumber(noteNumber);
-        LCD_Char_PrintString(" F:");
+        LCD_Char_PrintString(" F");
         LCD_Char_PrintNumber(frequency10);
-        LCD_Char_Position(1, 0);
-        LCD_Char_PrintString("P:");
+        LCD_Char_PrintString(" P");
         LCD_Char_PrintNumber(timerPeriod);
-        LCD_Char_PrintString(" ");
+        LCD_Char_Position(1, 0);
         LCD_Char_PrintNumber(cnt1);
-        LCD_Char_PrintString(" :");
+        LCD_Char_PrintString(":");
         LCD_Char_PrintNumber(cnt2);
-        LCD_Char_PrintString(" :");
+        LCD_Char_PrintString(":");
         LCD_Char_PrintNumber(cnt3);
+        LCD_Char_PrintString(" D:");
+        LCD_Char_PrintNumber(squareDuty);
 
         CyDelay(200);
     }
