@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_DCO\Header Files">
+<ExpandedNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO\Header Files</v>
+<v>PSoC4_DCO\PSoC4_DCO\Header Files\scaleTable10.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Clock_Sampling</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Clock_Sampling\Clock_Sampling.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Clock_Sampling\Clock_Sampling.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW1</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW1\Pin_SW1.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW1\Pin_SW1.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW1\Pin_SW1_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW1\Pin_SW1_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW2</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW2\Pin_SW2.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW2\Pin_SW2.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW2\Pin_SW2_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW2\Pin_SW2_PM.c</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO\PSoC4_DCO.cydwr</v>
+<v>PSoC4_DCO\PSoC4_DCO\Header Files</v>
+<v>PSoC4_DCO\PSoC4_DCO\Header Files\cyapicallbacks.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Header Files\scaleTable10.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Source Files</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Clock_Sampling</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Clock_Sampling\Clock_Sampling.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Clock_Sampling\Clock_Sampling.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\cy_boot</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\cy_lfclk</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\IDAC8</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\ISR_Timer_Sampling</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\LCD_Char</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\LCD_Char_LCDPort</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Opamp_IV_Conv</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_Check1</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_Check2</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_Follower_In</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_IDAC8_Out</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW1</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW1\Pin_SW1.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW1\Pin_SW1.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW1\Pin_SW1_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW1\Pin_SW1_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW2</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW2\Pin_SW2.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW2\Pin_SW2.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW2\Pin_SW2_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_SW2\Pin_SW2_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Pin_Wave_Out</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\Timer_Sampling</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\UART</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\UART_rx</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\UART_SCBCLK</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\UART_tx</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>PSoC4_DCO\PSoC4_DCO\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_DCO">
+<ExpandedNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\IDAC8.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\IDAC8_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\ISR_Timer_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Opamp_IV_Conv.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Opamp_IV_Conv_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check1.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check1_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check2.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check2_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Follower_In.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Follower_In_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_IDAC8_Out.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_IDAC8_Out_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW1.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW1_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW2.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW2_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Wave_Out.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Wave_Out_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART_BOOT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO.elf</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO.hex</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO.map</v>
+<v>PSoC4_DCO\PSoC4_DCO\PSoC4_DCO.gpdsc</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\IDAC8.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\IDAC8_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\ISR_Timer_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Opamp_IV_Conv.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Opamp_IV_Conv_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check1.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check1_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check2.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check2_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Follower_In.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Follower_In_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_IDAC8_Out.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_IDAC8_Out_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW1.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW1_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW2.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW2_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Wave_Out.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Wave_Out_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx_PM.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\PSoC 4 Architecture TRM</v>
+<v>PSoC4_DCO\PSoC4_DCO\PSoC 4200 Family Datasheet</v>
+<v>PSoC4_DCO\PSoC4_DCO\System Reference Guides</v>
+<v>PSoC4_DCO\PSoC4_DCO\System Reference Guides\cy_boot_v5_30</v>
+<v>PSoC4_DCO\PSoC4_DCO\System Reference Guides\cy_lfclk_v1_0</v>
+<v>PSoC4_DCO\PSoC4_DCO\CharLCD_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_clock_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_isr_v1_70.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_pins_v2_20</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\Gnd_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\IDAC_P4_v1_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\OpAmp_P4_v1_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\Resistor_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\SCB_P4_v3_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\TCPWM_P4_v2_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\PSoC 4 Architecture TRM</v>
+<v>PSoC4_DCO\PSoC4_DCO\PSoC 4200 Family Datasheet</v>
+<v>PSoC4_DCO\PSoC4_DCO\System Reference Guides</v>
+<v>PSoC4_DCO\PSoC4_DCO\System Reference Guides\cy_boot_v5_30</v>
+<v>PSoC4_DCO\PSoC4_DCO\System Reference Guides\cy_lfclk_v1_0</v>
+<v>PSoC4_DCO\PSoC4_DCO\CharLCD_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_clock_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_isr_v1_70.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_pins_v2_20</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\Gnd_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\IDAC_P4_v1_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\OpAmp_P4_v1_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\Resistor_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\SCB_P4_v3_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\TCPWM_P4_v2_10.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\PSoC4_DCO.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\PSoC4_DCO.cydsn\PSoC4_DCO.cydwr" />
+<name v=".\PSoC4_DCO.cydsn\main.c" />
+<name v=".\PSoC4_DCO.cydsn\scaleTable10.h" />
+</OpenDocs>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
