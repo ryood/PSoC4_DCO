@@ -23,7 +23,7 @@
 #include <stdio.h>
 #include "scaleTable10.h"
 
-#define SEQUENCE_RATE   1000  // ms
+#define SEQUENCE_RATE   500  // ms
 #define PIN_PSOC_SS     9
 #define TX_PACKET_SIZE  3
 

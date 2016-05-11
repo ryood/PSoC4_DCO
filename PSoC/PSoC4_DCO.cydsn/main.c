@@ -18,7 +18,7 @@
 #define TITLE_STR1          "PSoC4 DCO"
 #define TITLE_STR2          "20160511"
 
-#define SAMPLING_CLOCK      24000000ul
+#define SAMPLING_CLOCK      12000000ul
 
 #define WAVESHAPE_SQUARE    0
 #define WAVESHAPE_SAW       1
@@ -149,6 +149,7 @@ int main()
             txBuffer[2] = rxBuffer[2];
             SPIS_SpiUartPutArray(txBuffer, SPIS_TX_PACKET_SIZE);
             
+            /*
             //sprintf(strBuffer, "RX: %03u %03u %03u\r\n", rxBuffer[0], rxBuffer[1], rxBuffer[2]);
             sprintf(strBuffer, "RX: %03u %4ld   \r\n", rxBuffer[0], frequency10);
             UART_UartPutString(strBuffer);
@@ -165,45 +166,46 @@ int main()
             strBuffer[15] = 0;
             LCD_Char_Position(1, 0);
             LCD_Char_PrintString(strBuffer);
-        }
+            */
         
-        timerPeriod = SAMPLING_CLOCK * 10 / (frequency10 * 256);
-        Timer_Sampling_WritePeriod(timerPeriod);
-        
-        //sprintf(strBuffer, "RX: %03u %03u %03u\r\n", rxBuffer[0], rxBuffer[1], rxBuffer[2]);
-        sprintf(strBuffer, "RX: %03u %4d   \r\n", rxBuffer[0], ((uint16)rxBuffer[1] << 8) | rxBuffer[2]);
-        UART_UartPutString(strBuffer);
+            timerPeriod = SAMPLING_CLOCK * 10 / (frequency10 * 256);
+            Timer_Sampling_WritePeriod(timerPeriod);
             
-        LCD_Char_ClearDisplay();
-        strBuffer[15] = 0;
-        LCD_Char_Position(0, 0);
-        LCD_Char_PrintString(strBuffer);
+            //sprintf(strBuffer, "RX: %03u %03u %03u\r\n", rxBuffer[0], rxBuffer[1], rxBuffer[2]);
+            sprintf(strBuffer, "RX: %03u %4d   \r\n", rxBuffer[0], ((uint16)rxBuffer[1] << 8) | rxBuffer[2]);
+            UART_UartPutString(strBuffer);
+                
+            LCD_Char_ClearDisplay();
+            strBuffer[15] = 0;
+            LCD_Char_Position(0, 0);
+            LCD_Char_PrintString(strBuffer);
 
-        sprintf(strBuffer, "P:%d D:%d", timerPeriod, squareDuty);
-        UART_UartPutString(strBuffer);
+            sprintf(strBuffer, "P:%d D:%d", timerPeriod, squareDuty);
+            UART_UartPutString(strBuffer);
 
-        LCD_Char_Position(1, 0);
-        LCD_Char_PrintString(strBuffer);
+            LCD_Char_Position(1, 0);
+            LCD_Char_PrintString(strBuffer);
 
-        /*
-        LCD_Char_ClearDisplay();
-        LCD_Char_PrintString("N");
-        LCD_Char_PrintNumber(noteNumber);
-        LCD_Char_PrintString(" F");
-        LCD_Char_PrintNumber(frequency10);
-        LCD_Char_PrintString(" P");
-        LCD_Char_PrintNumber(timerPeriod);
-        LCD_Char_Position(1, 0);
-        LCD_Char_PrintNumber(cnt1);
-        LCD_Char_PrintString(":");
-        LCD_Char_PrintNumber(cnt2);
-        LCD_Char_PrintString(":");
-        LCD_Char_PrintNumber(cnt3);
-        LCD_Char_PrintString(" D:");
-        LCD_Char_PrintNumber(squareDuty);
-        */
-        
-        //CyDelay(200);
+            /*
+            LCD_Char_ClearDisplay();
+            LCD_Char_PrintString("N");
+            LCD_Char_PrintNumber(noteNumber);
+            LCD_Char_PrintString(" F");
+            LCD_Char_PrintNumber(frequency10);
+            LCD_Char_PrintString(" P");
+            LCD_Char_PrintNumber(timerPeriod);
+            LCD_Char_Position(1, 0);
+            LCD_Char_PrintNumber(cnt1);
+            LCD_Char_PrintString(":");
+            LCD_Char_PrintNumber(cnt2);
+            LCD_Char_PrintString(":");
+            LCD_Char_PrintNumber(cnt3);
+            LCD_Char_PrintString(" D:");
+            LCD_Char_PrintNumber(squareDuty);
+            */
+            
+            //CyDelay(200);
+        }    
         Pin_Check1_Write(0);
     }
 }
