@@ -13,14 +13,16 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_DCO\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_SPI_Slave_Test\Source Files\main.c">
 <ExpandedNodeIds>
 <v>PSoC4_DCO</v>
 <v>PSoC4_DCO\I2C_Slave_Test\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_DCO</v>
 <v>PSoC4_DCO\PSoC4_DCO\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_DCO\Source Files</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\Source Files</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>PSoC4_DCO</v>
@@ -33,6 +35,12 @@
 <v>PSoC4_DCO\PSoC4_DCO\Source Files\main.c</v>
 <v>PSoC4_DCO\PSoC4_DCO\Generated_Source</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\PSoC4_SPI_Slave_Test.cydwr</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\Header Files</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\Source Files</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\Source Files\main.c</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\Generated_Source</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">

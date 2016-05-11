@@ -28,7 +28,7 @@
 
 volatile uint8 count;
 
-uint8 waveShape = WAVESHAPE_SAW;
+uint8 waveShape;
 int32 frequency10;
 uint8 squareDuty;
 
@@ -56,23 +56,46 @@ CY_ISR(ISR_Square_handler)
     Pin_Check2_Write(0);    
 }
 
+//-------------------------------------------------
+// ロータリーエンコーダの読み取り
+// return: ロータリーエンコーダーの回転方向
+//         0:変化なし 1:時計回り -1:反時計回り
+//
+int readRE()
+{
+    static uint8_t index;
+    uint8_t rd = 0;
+    int retval = 0;
+    
+    rd = Pin_RE_Read();
+    index = (index << 2) | rd;
+	index &= 0b1111;
+
+	switch (index) {
+	// 時計回り
+	case 0b0001:	// 00 -> 01
+	case 0b1110:	// 11 -> 10
+	    retval = 1;
+	    break;
+	// 反時計回り
+	case 0b0010:	// 00 -> 10
+	case 0b1101:	// 11 -> 01
+	    retval = -1;
+	    break;
+    }
+    return retval;
+}
+
 int main()
 {
     uint16 timerPeriod;
-    //int32 frequency = 1000;
     int i;
-    //int txData;
     uint8 rxBuffer[SPIS_RX_PACKET_SIZE];
     uint8 txBuffer[SPIS_TX_PACKET_SIZE];
     char strBuffer[80];
 
     CyGlobalIntEnable; /* Enable global interrupts. */
-
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
-//    UART_Start();
-//    UART_UartPutString("Hello\r\n");
-//    UART_UartPutString("Put Note Number\r\n");
-//    
+   
     LCD_Char_Start();
     LCD_Char_PrintString(TITLE_STR1);
     LCD_Char_Position(1, 0);
@@ -84,7 +107,7 @@ int main()
     
     LCD_Char_ClearDisplay();
     LCD_Char_PrintString("Initialize OK.");
-    //CyDelay(2000);
+    CyDelay(1000);
     
     SPIS_Start();
 
@@ -93,11 +116,12 @@ int main()
     
     frequency10 = 4400;
     squareDuty = 127;
+    waveShape = WAVESHAPE_SAW;
     for(;;)
     {
         Pin_Check1_Write(1);
 
-        if (Pin_SW3_Read() == 0u) {
+        if (Pin_SW1_Read() == 0u) {
             waveShape++;
             if (waveShape >= WAVESHAPE_N) {
                 waveShape = WAVESHAPE_SQUARE;
@@ -112,12 +136,16 @@ int main()
             }
         }
         
+        /*
         if (Pin_SW4_Read() == 0u) {
             squareDuty -= 10;
         }
         if (Pin_SW5_Read() == 0u) {
             squareDuty += 10;
         }
+        */
+        
+        squareDuty += (readRE() << 2);
         
         if (SPIS_RX_PACKET_SIZE <= SPIS_SpiUartGetRxBufferSize()) {
             // RX
