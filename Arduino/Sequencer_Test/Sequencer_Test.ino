@@ -53,7 +53,7 @@ void sendScore() {
   byte freqHi, freqLo;
   char strBuffer[20];
   
-  freq = scaleTable10[score[cnt]];
+  freq = scaleTable10[score[cnt]-13];
   freqHi = (freq >> 8) & 0xff;
   freqLo = freq & 0xff;
 
