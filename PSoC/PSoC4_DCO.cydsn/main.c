@@ -7,6 +7,7 @@
  * CONFIDENTIAL AND PROPRIETARY INFORMATION
  * WHICH IS THE PROPERTY OF your company.
  *
+ * 2016.05.11 UIを追加
  * 2016.05.07 Created
  *
  * ========================================
@@ -135,16 +136,7 @@ int main()
                 break;
             }
         }
-        
-        /*
-        if (Pin_SW4_Read() == 0u) {
-            squareDuty -= 10;
-        }
-        if (Pin_SW5_Read() == 0u) {
-            squareDuty += 10;
-        }
-        */
-        
+
         squareDuty += (readRE() << 2);
         
         if (SPIS_RX_PACKET_SIZE <= SPIS_SpiUartGetRxBufferSize()) {
