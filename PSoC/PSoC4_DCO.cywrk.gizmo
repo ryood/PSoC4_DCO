@@ -13,18 +13,27 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\I2C_Slave_Test">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\TopDesign">
 <ExpandedNodeIds>
 <v>PSoC4_DCO</v>
 <v>PSoC4_DCO\I2C_Slave_Test\TopDesign</v>
-<v>PSoC4_DCO\PSoC4_DCO</v>
 <v>PSoC4_DCO\PSoC4_DCO\TopDesign</v>
-<v>PSoC4_DCO\PSoC4_DCO\Source Files</v>
-<v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign</v>
-<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\Source Files</v>
 </ExpandedNodeIds>
-<VisibleNodeIds />
+<VisibleNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\I2C_Slave_Test</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110.cydwr</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\Header Files</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\Source Files</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\Generated_Source</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
+</VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
@@ -35,11 +44,28 @@
 <v>PSoC4_DCO\PSoC4_DCO</v>
 <v>PSoC4_DCO\PSoC4_DCO\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_DCO\TopDesign\TopDesign.cysch</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\TopDesign\TopDesign.cysch</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign\TopDesign.cysch</v>
 </ExpandedNodeIds>
-<VisibleNodeIds />
+<VisibleNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\I2C_Slave_Test</v>
+<v>PSoC4_DCO\I2C_Slave_Test\TopDesign</v>
+<v>PSoC4_DCO\I2C_Slave_Test\TopDesign\TopDesign.cysch</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO\TopDesign\TopDesign.cysch</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\TopDesign\TopDesign.cysch</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\I2C_Slave_Test">
 <ExpandedNodeIds>
@@ -239,6 +265,88 @@
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Release\PSoC4_DCO.hex</v>
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Release\PSoC4_DCO.map</v>
 <v>PSoC4_DCO\PSoC4_DCO\PSoC4_DCO.gpdsc</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\IDAC8.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\IDAC8_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\ISR_Timer_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Opamp_IV_Conv.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Opamp_IV_Conv_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check1.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check1_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check2.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check2_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Follower_In.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Follower_In_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_IDAC8_Out.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_IDAC8_Out_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_RE.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_RE_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW1.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW1_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW2.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW2_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW3.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW3_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW4.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW4_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW5.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SW5_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Wave_Out.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Wave_Out_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_BOOT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_miso_s.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_miso_s_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_mosi_s.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_mosi_s_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_SCBCLK.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_sclk_s.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_sclk_s_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_SPI.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_SPI_BOOT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_SPI_UART.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_ss_s.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_ss_s_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART_BOOT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110.elf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110.hex</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110.map</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110.gpdsc</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110.rpt</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110_timing.html</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\CortexM0</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\CortexM0\ARM_GCC_493</v>
@@ -294,7 +402,57 @@
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\PSoC4_SPI_Slave_Test.rpt</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\PSoC4_SPI_Slave_Test_timing.html</v>
 </ExpandedNodeIds>
-<VisibleNodeIds />
+<VisibleNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\I2C_Slave_Test</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_BOOT.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_BOOT.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_INT.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_SCB_IRQ.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_SCBCLK.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_scl.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_scl_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_sda.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_sda_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_BLUE.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_BLUE_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_GREEN.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_GREEN_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_RED.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_RED_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\I2C_Slave_Test.elf</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\I2C_Slave_Test.hex</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\I2C_Slave_Test.map</v>
+<v>PSoC4_DCO\I2C_Slave_Test\I2C_Slave_Test.gpdsc</v>
+<v>PSoC4_DCO\I2C_Slave_Test\I2C_Slave_Test.rpt</v>
+<v>PSoC4_DCO\I2C_Slave_Test\I2C_Slave_Test_timing.html</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+</VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
 <TreeKeysV2>
@@ -331,6 +489,24 @@
 <v>PSoC4_DCO\PSoC4_DCO\SCB_P4_v3_10</v>
 <v>PSoC4_DCO\PSoC4_DCO\SCB_P4_v3_10\SCB_P4_v3_10.pdf</v>
 <v>PSoC4_DCO\PSoC4_DCO\TCPWM_P4_v2_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\PSoC 4 Architecture TRM</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\PSoC 4200 Family Datasheet</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\System Reference Guides</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\System Reference Guides\cy_boot_v5_30</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\System Reference Guides\cy_lfclk_v1_0</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CharLCD_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\cy_clock_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\cy_isr_v1_70.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\cy_pins_v2_20</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\Gnd_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\IDAC_P4_v1_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\OpAmp_P4_v1_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\Resistor_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\SCB_P4_v3_10</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\SCB_P4_v3_10\SCB_P4_v3_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\TCPWM_P4_v2_10.pdf</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\PSoC 4 Architecture TRM</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\PSoC 4200 Family Datasheet</v>
@@ -342,7 +518,57 @@
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\SCB_P4_v3_10</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\SCB_P4_v3_10\SCB_P4_v3_10.pdf</v>
 </ExpandedNodeIds>
-<VisibleNodeIds />
+<VisibleNodeIds>
+<v>PSoC4_DCO</v>
+<v>PSoC4_DCO\I2C_Slave_Test</v>
+<v>PSoC4_DCO\I2C_Slave_Test\PSoC 4 Architecture TRM</v>
+<v>PSoC4_DCO\I2C_Slave_Test\PSoC 4200 Family Datasheet</v>
+<v>PSoC4_DCO\I2C_Slave_Test\System Reference Guides</v>
+<v>PSoC4_DCO\I2C_Slave_Test\System Reference Guides\cy_boot_v5_30</v>
+<v>PSoC4_DCO\I2C_Slave_Test\System Reference Guides\cy_lfclk_v1_0</v>
+<v>PSoC4_DCO\I2C_Slave_Test\cy_pins_v2_20</v>
+<v>PSoC4_DCO\I2C_Slave_Test\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSoC4_DCO\I2C_Slave_Test\SCB_P4_v3_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\PSoC 4 Architecture TRM</v>
+<v>PSoC4_DCO\PSoC4_DCO\PSoC 4200 Family Datasheet</v>
+<v>PSoC4_DCO\PSoC4_DCO\System Reference Guides</v>
+<v>PSoC4_DCO\PSoC4_DCO\System Reference Guides\cy_boot_v5_30</v>
+<v>PSoC4_DCO\PSoC4_DCO\System Reference Guides\cy_lfclk_v1_0</v>
+<v>PSoC4_DCO\PSoC4_DCO\CharLCD_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_clock_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_isr_v1_70.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_pins_v2_20</v>
+<v>PSoC4_DCO\PSoC4_DCO\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\Gnd_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\IDAC_P4_v1_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\OpAmp_P4_v1_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\Resistor_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\SCB_P4_v3_10</v>
+<v>PSoC4_DCO\PSoC4_DCO\SCB_P4_v3_10\SCB_P4_v3_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO\TCPWM_P4_v2_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\PSoC 4 Architecture TRM</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\PSoC 4200 Family Datasheet</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\System Reference Guides</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\System Reference Guides\cy_boot_v5_30</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\System Reference Guides\cy_lfclk_v1_0</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\CharLCD_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\cy_clock_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\cy_isr_v1_70.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\cy_pins_v2_20</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\Gnd_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\IDAC_P4_v1_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\OpAmp_P4_v1_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\Resistor_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\SCB_P4_v3_10</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\SCB_P4_v3_10\SCB_P4_v3_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\TCPWM_P4_v2_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\PSoC 4 Architecture TRM</v>
+<v>PSoC4_DCO\PSoC4_SPI_Slave_Test\PSoC 4200 Family Datasheet</v>
+</VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
 </CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
