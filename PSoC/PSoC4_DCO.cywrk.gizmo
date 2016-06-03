@@ -871,8 +871,10 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
+<name v=".\PSoC4_DCO_for_NucleoF401RE.cydsn\main.c" />
+<name v=".\PSoC4_DCO_for_NucleoF401RE.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\PSoC4_DCO_for_NucleoF401RE.cydsn\PSoC4_DCO_for_NucleoF401RE.cydwr" />
 <name v=".\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110.cydsn\main.c" />
 <name v=".\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110.cydsn\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110.cydwr" />
 </OpenDocs>
 <config v="Debug" />

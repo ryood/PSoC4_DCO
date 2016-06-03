@@ -16,7 +16,7 @@
 #define TITLE_STR1  ("PSoC 4 DCO")
 #define TITLE_STR2  ("20160603")
 
-#define SAMPLING_CLOCK           (12000000)
+#define SAMPLING_CLOCK           (24000000)
 #define SPIS_RX_PACKET_SIZE      (5)
 #define SPIS_RX_PACKET_HEADER    (0x55)
 
@@ -84,7 +84,7 @@ void doCommand(uint8 *rxBuffer)
         break;
     }
     
-    timerPeriod = SAMPLING_CLOCK * 10 / (frequency10 * 256);
+    timerPeriod = (uint64)SAMPLING_CLOCK * 10 / (frequency10 * 256);
     Timer_Sampling_WritePeriod(timerPeriod);
 }
 
