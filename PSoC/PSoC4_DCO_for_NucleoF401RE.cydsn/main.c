@@ -13,6 +13,8 @@
 #include <stdio.h>
 
 #define UART_TRACE  (0)
+#define LCD_DISPLAY (1)
+
 #define TITLE_STR1  ("PSoC 4 DCO")
 #define TITLE_STR2  ("20160603")
 
@@ -30,6 +32,7 @@ uint8 waveShape   = WAVESHAPE_SQUARE;
 uint8 squareDuty  = 127;
 int32 frequency10 = 4400;
 
+#if(LCD_DISPLAY)
 void printLCD(uint8* rxBuffer)
 {
     char strBuffer[20];
@@ -41,6 +44,7 @@ void printLCD(uint8* rxBuffer)
     LCD_Char_Position(1, 0);
     LCD_Char_PrintString(strBuffer);
 }
+#endif
 
 CY_ISR(ISR_Saw_handler)
 {
@@ -100,12 +104,14 @@ int main()
     UART_UartPutString("PSoC 4 SPI Slave Test\r\n");
     #endif
     
+    #if(LCD_DISPLAY)
     LCD_Char_Start();
     LCD_Char_ClearDisplay();
     LCD_Char_PrintString(TITLE_STR1);
     LCD_Char_Position(1, 0);
     LCD_Char_PrintString(TITLE_STR2);
     CyDelay(1000);
+    #endif
     
     IDAC8_Start();
     Opamp_IV_Conv_Start();
@@ -130,7 +136,10 @@ int main()
             }
 
             doCommand(rxBuffer);
+            
+            #if(LCD_DISPLAY)
             printLCD(rxBuffer);
+            #endif
             
             #if(UART_TRACE)
             char strBuffer[80];
