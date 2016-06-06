@@ -104,8 +104,8 @@ void SPI_RX_handler()
     if (SPIS_RX_PACKET_HEADER == rxBuffer[0]) {
         for (i = 1; i < SPIS_RX_PACKET_SIZE; i++) {
             rxBuffer[i] = SPIS_SpiUartReadRxData();
-            doCommand(rxBuffer);
         }
+        doCommand(rxBuffer);
     }
     
     SPIS_ClearRxInterruptSource(SPIS_INTR_RX_FIFO_LEVEL);
