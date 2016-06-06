@@ -13,10 +13,10 @@
 #include <stdio.h>
 
 #define UART_TRACE  (0)
-#define LCD_DISPLAY (1)
+#define LCD_DISPLAY (0)
 
 #define TITLE_STR1  ("PSoC 4 DCO")
-#define TITLE_STR2  ("20160603")
+#define TITLE_STR2  ("20160606")
 
 #define SAMPLING_CLOCK           (24000000)
 #define SPIS_RX_PACKET_SIZE      (5)
@@ -74,29 +74,47 @@ void doCommand(uint8 *rxBuffer)
 {
     uint16 timerPeriod;
     
-    //waveShape = rxBuffer[1];
-    waveShape = WAVESHAPE_SAW;
+    if (waveShape != rxBuffer[1]) {
+        waveShape = rxBuffer[1];
+        switch (waveShape) {
+        case WAVESHAPE_SQUARE:
+            ISR_Timer_Sampling_StartEx(ISR_Square_handler);
+            break;
+        case WAVESHAPE_SAW:
+            ISR_Timer_Sampling_StartEx(ISR_Saw_handler);
+            break;
+        }
+    }
+
     squareDuty = rxBuffer[2];
     frequency10 = ((uint16)rxBuffer[3] << 8) | rxBuffer[4];
-    
-    switch (waveShape) {
-    case WAVESHAPE_SQUARE:
-        ISR_Timer_Sampling_StartEx(ISR_Square_handler);
-        break;
-    case WAVESHAPE_SAW:
-        ISR_Timer_Sampling_StartEx(ISR_Saw_handler);
-        break;
-    }
     
     timerPeriod = (uint64)SAMPLING_CLOCK * 10 / (frequency10 * 256);
     Timer_Sampling_WritePeriod(timerPeriod);
 }
 
-int main()
+void SPI_RX_handler()
 {
     uint8 rxBuffer[SPIS_RX_PACKET_SIZE];
     int i;
     
+    Pin_Check1_Write(1);
+    
+    rxBuffer[0] = SPIS_SpiUartReadRxData();
+    if (SPIS_RX_PACKET_HEADER == rxBuffer[0]) {
+        for (i = 1; i < SPIS_RX_PACKET_SIZE; i++) {
+            rxBuffer[i] = SPIS_SpiUartReadRxData();
+            doCommand(rxBuffer);
+        }
+    }
+    
+    SPIS_ClearRxInterruptSource(SPIS_INTR_RX_FIFO_LEVEL);
+    
+    Pin_Check1_Write(0);
+}
+
+int main()
+{
     CyGlobalIntEnable; /* Enable global interrupts. */
 
     #if(UART_TRACE)
@@ -119,39 +137,11 @@ int main()
     Timer_Sampling_Start();
     ISR_Timer_Sampling_StartEx(ISR_Saw_handler);
     
+    SPIS_SetCustomInterruptHandler(SPI_RX_handler);
     SPIS_Start();
 
     for(;;)
     {
-        Pin_Check1_Write(1);
-        
-        if (SPIS_RX_PACKET_SIZE <= SPIS_SpiUartGetRxBufferSize()) {
-            // Check Packet Header
-            rxBuffer[0] = SPIS_SpiUartReadRxData();
-            if (SPIS_RX_PACKET_HEADER != rxBuffer[0]) {
-                break;
-            }
-            for (i = 1; i < SPIS_RX_PACKET_SIZE; i++) {
-                rxBuffer[i] = SPIS_SpiUartReadRxData();
-            }
-
-            doCommand(rxBuffer);
-            
-            #if(LCD_DISPLAY)
-            printLCD(rxBuffer);
-            #endif
-            
-            #if(UART_TRACE)
-            char strBuffer[80];
-            sprintf(strBuffer, "%d\t%d\t%d\t%d\t%d\t%ld\r\n",
-                rxBuffer[0], rxBuffer[1], rxBuffer[2], rxBuffer[3], rxBuffer[4],
-                frequency10
-            );
-            UART_UartPutString(strBuffer);
-            #endif     
-        }
-        
-        Pin_Check1_Write(0);
     }
 }
 
