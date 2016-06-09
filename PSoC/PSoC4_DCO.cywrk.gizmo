@@ -13,14 +13,13 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\PSoC4_DCO_No_SPI_Interrupt_Test.cydwr">
 <ExpandedNodeIds>
 <v>PSoC4_DCO</v>
 <v>PSoC4_DCO\I2C_Slave_Test\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_DCO\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\Source Files</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\PSoC4_DCO_for_NucleoF401RE.cydwr</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\Header Files</v>
@@ -183,7 +182,6 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\Generated_Source\PSoC4\cyfitterrv.inc</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\Generated_Source\PSoC4\cymetadata.c</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\Generated_Source\PSoC4\project.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.cydwr</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Header Files\cyapicallbacks.h</v>
@@ -349,6 +347,148 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\cyfitterrv.inc</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\cymetadata.c</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\project.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\PSoC4_DCO_No_SPI_Interrupt_Test.cydwr</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Header Files</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Header Files\cyapicallbacks.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Source Files</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Source Files\main.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Clock_Sampling</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Clock_Sampling\Clock_Sampling.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Clock_Sampling\Clock_Sampling.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Clock_Timer1</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Clock_Timer1\Clock_Timer1.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Clock_Timer1\Clock_Timer1.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\CyFlash.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\CyFlash.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\CyLib.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\CyLib.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\cypins.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\cyPm.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\cyPm.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\cytypes.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_boot\cyutils.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_lfclk</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_lfclk\CyLFClk.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cy_lfclk\CyLFClk.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\IDAC8</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\IDAC8\IDAC8.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\IDAC8\IDAC8.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\IDAC8\IDAC8_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\ISR_Timer_Sampling</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\ISR_Timer_Sampling\ISR_Timer_Sampling.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\ISR_Timer_Sampling\ISR_Timer_Sampling.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\ISR_Timer1</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\ISR_Timer1\ISR_Timer1.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\ISR_Timer1\ISR_Timer1.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\LCD_Char</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\LCD_Char\LCD_Char.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\LCD_Char\LCD_Char.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\LCD_Char\LCD_Char_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\LCD_Char_LCDPort</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\LCD_Char_LCDPort\LCD_Char_LCDPort.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\LCD_Char_LCDPort\LCD_Char_LCDPort.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\LCD_Char_LCDPort\LCD_Char_LCDPort_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\LCD_Char_LCDPort\LCD_Char_LCDPort_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Opamp_IV_Conv</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Opamp_IV_Conv\Opamp_IV_Conv.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Opamp_IV_Conv\Opamp_IV_Conv.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Opamp_IV_Conv\Opamp_IV_Conv_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check1</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check1\Pin_Check1.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check1\Pin_Check1.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check1\Pin_Check1_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check1\Pin_Check1_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check2</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check2\Pin_Check2.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check2\Pin_Check2.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check2\Pin_Check2_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check2\Pin_Check2_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check3</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check3\Pin_Check3.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check3\Pin_Check3.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check3\Pin_Check3_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Check3\Pin_Check3_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Follower</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Follower\Pin_Follower.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Follower\Pin_Follower.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Follower\Pin_Follower_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_Follower\Pin_Follower_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_IDAC8_Out</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_IDAC8_Out\Pin_IDAC8_Out.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_IDAC8_Out\Pin_IDAC8_Out.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_IDAC8_Out\Pin_IDAC8_Out_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_IDAC8_Out\Pin_IDAC8_Out_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_WaveOut</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_WaveOut\Pin_WaveOut.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_WaveOut\Pin_WaveOut.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_WaveOut\Pin_WaveOut_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Pin_WaveOut\Pin_WaveOut_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Timer_Sampling</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Timer_Sampling\Timer_Sampling.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Timer_Sampling\Timer_Sampling.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Timer_Sampling\Timer_Sampling_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Timer1</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Timer1\Timer1.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Timer1\Timer1.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\Timer1\Timer1_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART_BOOT.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART_BOOT.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART_PINS.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART_PVT.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART_SPI_UART.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART_SPI_UART.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART_SPI_UART_INT.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART_SPI_UART_PVT.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART_UART.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART\UART_UART_BOOT.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_rx</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_rx\UART_rx.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_rx\UART_rx.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_rx\UART_rx_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_rx\UART_rx_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_SCBCLK</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_SCBCLK\UART_SCBCLK.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_SCBCLK\UART_SCBCLK.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_tx</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_tx\UART_tx.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_tx\UART_tx.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_tx\UART_tx_aliases.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\UART_tx\UART_tx_PM.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cyfitter.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cyfitter_cfg.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cyfittergnu.inc</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cyfitteriar.inc</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\cymetadata.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source\PSoC4\project.h</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -357,20 +497,15 @@
 <v>PSoC4_DCO\PSoC4_DCO</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\TopDesign</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\PSoC4_DCO_for_NucleoF401RE.cydwr</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\Header Files</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\Header Files\cyapicallbacks.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\Source Files</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\Source Files\main.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\Generated_Source</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\TopDesign</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.cydwr</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Header Files</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Source Files</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Source Files\main.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\PSoC4_DCO_No_SPI_Interrupt_Test.cydwr</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Header Files</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Header Files\cyapicallbacks.h</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Source Files</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Source Files\main.c</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Generated_Source</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
@@ -392,6 +527,9 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\TopDesign\TopDesign.cysch</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\TopDesign\TopDesign.cysch</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign\TopDesign.cysch</v>
@@ -413,6 +551,9 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\TopDesign\TopDesign.cysch</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\TopDesign\TopDesign.cysch</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\TopDesign\TopDesign.cysch</v>
@@ -840,6 +981,67 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.gpdsc</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.rpt</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test_timing.html</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_Timer1.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\IDAC8.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\IDAC8_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\ISR_Timer_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\ISR_Timer1.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Opamp_IV_Conv.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Opamp_IV_Conv_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check1.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check1_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check2.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check2_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check3.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check3_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Follower.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Follower_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_IDAC8_Out.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_IDAC8_Out_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_WaveOut.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_WaveOut_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer1.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer1_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx_PM.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART_BOOT.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO_No_SPI_Interrupt_Test.elf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO_No_SPI_Interrupt_Test.hex</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO_No_SPI_Interrupt_Test.map</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\PSoC4_DCO_No_SPI_Interrupt_Test.gpdsc</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\PSoC4_DCO_No_SPI_Interrupt_Test.rpt</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\PSoC4_DCO_No_SPI_Interrupt_Test_timing.html</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\CortexM0</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\CortexM0\ARM_GCC_493</v>
@@ -898,50 +1100,9 @@
 <VisibleNodeIds>
 <v>PSoC4_DCO</v>
 <v>PSoC4_DCO\I2C_Slave_Test</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_BOOT.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_BOOT.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_INT.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_PM.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_SCB_IRQ.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_SCBCLK.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_scl.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_scl_PM.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_sda.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_sda_PM.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_BLUE.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_BLUE_PM.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_GREEN.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_GREEN_PM.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_RED.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_RED_PM.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\I2C_Slave_Test.elf</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\I2C_Slave_Test.hex</v>
-<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\I2C_Slave_Test.map</v>
-<v>PSoC4_DCO\I2C_Slave_Test\I2C_Slave_Test.gpdsc</v>
 <v>PSoC4_DCO\I2C_Slave_Test\I2C_Slave_Test.rpt</v>
 <v>PSoC4_DCO\I2C_Slave_Test\I2C_Slave_Test_timing.html</v>
 <v>PSoC4_DCO\PSoC4_DCO</v>
-<v>PSoC4_DCO\PSoC4_DCO\CortexM0</v>
-<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493</v>
-<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug</v>
-<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
-<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_Sampling.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -1033,6 +1194,26 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\SCB_P4_v3_10</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\SCB_P4_v3_10\SCB_P4_v3_10.pdf</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\TCPWM_P4_v2_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\PSoC 4 Architecture TRM</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\PSoC 4200 Family Datasheet</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\System Reference Guides</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\System Reference Guides\cy_boot_v5_30</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\System Reference Guides\cy_lfclk_v1_0</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\CharLCD_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\cy_clock_v2_20</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\cy_isr_v1_70</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\cy_pins_v2_20</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Gnd_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\IDAC_P4_v1_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\OpAmp_P4_v1_20.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\Resistor_v1_0.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\SCB_P4_v3_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\TCPWM_P4_v2_10</v>
+<v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\PSoC 4 Architecture TRM</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test\PSoC 4200 Family Datasheet</v>
