@@ -16,7 +16,7 @@
 #define LCD_DISPLAY (0)
 
 #define TITLE_STR1  ("PSoC 4 DCO")
-#define TITLE_STR2  ("20160606")
+#define TITLE_STR2  ("20160609")
 
 #define SAMPLING_CLOCK           (24000000)
 #define SPIS_RX_PACKET_SIZE      (5)
@@ -26,9 +26,11 @@
 #define WAVESHAPE_SAW       1
 #define WAVESHAPE_N         2
 
-volatile uint8 count;
+volatile uint8 count = 0;
+volatile uint16 timerPeriod = 0;
+volatile int toChangePeriod = 0;
 
-uint8 waveShape   = WAVESHAPE_SQUARE;
+uint8 waveShape   = WAVESHAPE_N;
 uint8 squareDuty  = 127;
 int32 frequency10 = 4400;
 
@@ -51,6 +53,10 @@ CY_ISR(ISR_Saw_handler)
     Pin_Check2_Write(1);
     
     count++;
+        if (count == 0 && toChangePeriod) {
+        Timer_Sampling_WritePeriod(timerPeriod);
+        toChangePeriod = 0;
+    }
     IDAC8_SetValue(count);
  
     Timer_Sampling_ClearInterrupt(Timer_Sampling_INTR_MASK_TC);
@@ -63,6 +69,10 @@ CY_ISR(ISR_Square_handler)
     Pin_Check2_Write(1);
     
     count++;
+    if (count == 0 && toChangePeriod) {
+        Timer_Sampling_WritePeriod(timerPeriod);
+        toChangePeriod = 0;
+    }
     IDAC8_SetValue((count / squareDuty) ? 255 : 0);    
     
     Timer_Sampling_ClearInterrupt(Timer_Sampling_INTR_MASK_TC);
@@ -72,7 +82,7 @@ CY_ISR(ISR_Square_handler)
 
 void doCommand(uint8 *rxBuffer)
 {
-    uint16 timerPeriod;
+    //uint16 timerPeriod;
     
     if (waveShape != rxBuffer[1]) {
         waveShape = rxBuffer[1];
@@ -90,7 +100,8 @@ void doCommand(uint8 *rxBuffer)
     frequency10 = ((uint16)rxBuffer[3] << 8) | rxBuffer[4];
     
     timerPeriod = (uint64)SAMPLING_CLOCK * 10 / (frequency10 * 256);
-    Timer_Sampling_WritePeriod(timerPeriod);
+    toChangePeriod = 1;
+    //Timer_Sampling_WritePeriod(timerPeriod);
 }
 
 void SPI_RX_handler()

@@ -30,7 +30,7 @@ volatile uint8 count = 0;
 volatile uint16 timerPeriod = 100;
 volatile int toChangePeriod = 0;
 
-uint8 waveShape   = WAVESHAPE_SQUARE;
+uint8 waveShape   = WAVESHAPE_N;
 uint8 squareDuty  = 127;
 int32 frequency10 = 4400;
 
