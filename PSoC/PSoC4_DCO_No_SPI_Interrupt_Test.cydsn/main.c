@@ -70,6 +70,10 @@ CY_ISR(ISR_Square_handler)
     Pin_Check2_Write(1);
     
     count++;
+    if (count == 0 && toChangePeriod) {
+        Timer_Sampling_WritePeriod(timerPeriod);
+        toChangePeriod = 0;
+    }
     IDAC8_SetValue((count / squareDuty) ? 255 : 0);    
     
     Timer_Sampling_ClearInterrupt(Timer_Sampling_INTR_MASK_TC);
@@ -99,7 +103,6 @@ void doCommand(uint8 *rxBuffer)
         timerPeriod = tp;
         toChangePeriod = 1;
     }
-    //Timer_Sampling_WritePeriod(timerPeriod);
 }
 
 CY_ISR(ISR_Timer1_handler)
