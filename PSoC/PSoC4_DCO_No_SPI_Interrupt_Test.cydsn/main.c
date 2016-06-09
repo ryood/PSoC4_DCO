@@ -98,18 +98,18 @@ void doCommand(uint8 *rxBuffer)
     squareDuty = rxBuffer[2];
     frequency10 = ((uint16)rxBuffer[3] << 8) | rxBuffer[4];
     
-    uint16 tp = (uint64)SAMPLING_CLOCK * 10 / (frequency10 * 256);
-    if (timerPeriod != tp) {
-        timerPeriod = tp;
-        toChangePeriod = 1;
-    }
+    timerPeriod = (uint64)SAMPLING_CLOCK * 10 / (frequency10 * 256);
+    toChangePeriod = 1;
 }
+
+#define CNT_MAX (125)
 
 CY_ISR(ISR_Timer1_handler)
 {
     const uint16 freq10Arr[] = { 654, 1308 };
     static int cnt = 0;
     static int idx = 0;
+    static int f_delta = 0;
     static uint8 rxBuffer[] = {
         SPIS_RX_PACKET_HEADER, WAVESHAPE_SAW, 127, 0x00, 0x00
     };
@@ -117,15 +117,18 @@ CY_ISR(ISR_Timer1_handler)
     Pin_Check1_Write(1);
 
     cnt++;
-    if (cnt == 4) {
+    if (cnt == CNT_MAX) {
         cnt = 0;
         idx++;
         if (idx > 1) {
             idx = 0;
         }
-        rxBuffer[3] = freq10Arr[idx] >> 8;
-        rxBuffer[4] = freq10Arr[idx] & 0xff;
+        frequency10 = freq10Arr[idx];
+        f_delta = (freq10Arr[(idx == 0) ? 1 : 0] - frequency10) / CNT_MAX;
     }
+    frequency10 += f_delta;
+    rxBuffer[3] = frequency10 >> 8;
+    rxBuffer[4] = frequency10 & 0xff;
     #if(LCD_DISPLAY)
     printLCD(rxBuffer);
     #endif
