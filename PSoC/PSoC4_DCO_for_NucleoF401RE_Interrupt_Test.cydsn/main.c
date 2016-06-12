@@ -88,10 +88,10 @@ void doCommand(uint8 *rxBuffer)
         waveShape = rxBuffer[1];
         switch (waveShape) {
         case WAVESHAPE_SQUARE:
-            ISR_Timer_Sampling_StartEx(ISR_Square_handler);
+            ISR_Timer_Sampling_SetVector(ISR_Square_handler);
             break;
         case WAVESHAPE_SAW:
-            ISR_Timer_Sampling_StartEx(ISR_Saw_handler);
+            ISR_Timer_Sampling_SetVector(ISR_Saw_handler);
             break;
         }
     }
