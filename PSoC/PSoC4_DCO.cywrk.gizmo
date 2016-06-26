@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\ISR_Timer_Sampling\ISR_Timer_Sampling.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\TopDesign">
 <ExpandedNodeIds>
 <v>PSoC4_DCO</v>
 <v>PSoC4_DCO\I2C_Slave_Test\TopDesign</v>
@@ -1334,9 +1334,8 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.cydsn\main.c" />
+<name v=".\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.cydsn\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.cydwr" />
 <name v=".\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.cydsn\Generated_Source\PSoC4\ISR_Timer_Sampling.c" />
 </OpenDocs>
 <config v="Debug" />
 <AutoUpdate v="true" />
