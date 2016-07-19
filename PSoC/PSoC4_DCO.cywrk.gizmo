@@ -1107,9 +1107,50 @@
 <VisibleNodeIds>
 <v>PSoC4_DCO</v>
 <v>PSoC4_DCO\I2C_Slave_Test</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_BOOT.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_BOOT.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_INT.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_SCB_IRQ.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_SCBCLK.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_scl.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_scl_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_sda.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_sda_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_BLUE.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_BLUE_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_GREEN.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_GREEN_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_RED.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LED_RED_PM.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\I2C_Slave_Test.elf</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\I2C_Slave_Test.hex</v>
+<v>PSoC4_DCO\I2C_Slave_Test\CortexM0\ARM_GCC_493\Debug\I2C_Slave_Test.map</v>
+<v>PSoC4_DCO\I2C_Slave_Test\I2C_Slave_Test.gpdsc</v>
 <v>PSoC4_DCO\I2C_Slave_Test\I2C_Slave_Test.rpt</v>
 <v>PSoC4_DCO\I2C_Slave_Test\I2C_Slave_Test_timing.html</v>
 <v>PSoC4_DCO\PSoC4_DCO</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_Sampling.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>

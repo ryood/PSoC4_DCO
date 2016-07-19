@@ -16,7 +16,7 @@
 #define LCD_DISPLAY (0)
 
 #define TITLE_STR1  ("PSoC 4 DCO")
-#define TITLE_STR2  ("20160609")
+#define TITLE_STR2  ("20160709")
 
 #define SAMPLING_CLOCK           (24000000)
 #define SPIS_RX_PACKET_SIZE      (5)
