@@ -126,6 +126,15 @@ void SPI_RX_handler()
 
 int main()
 {
+    // Initial parameter
+    uint8 dummyRxBuffer[SPIS_RX_PACKET_SIZE] = {
+        SPIS_RX_PACKET_HEADER,
+        WAVESHAPE_SAW,
+        squareDuty,
+        (frequency10 >> 8),
+        (frequency10 & 0xff)
+    };
+    
     CyGlobalIntEnable; /* Enable global interrupts. */
 
     #if(UART_TRACE)
@@ -147,6 +156,7 @@ int main()
 
     Timer_Sampling_Start();
     ISR_Timer_Sampling_StartEx(ISR_Saw_handler);
+    doCommand(dummyRxBuffer);
     
     SPIS_SetCustomInterruptHandler(SPI_RX_handler);
     SPIS_Start();
