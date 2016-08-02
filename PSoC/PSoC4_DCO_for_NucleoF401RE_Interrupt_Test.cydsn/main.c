@@ -12,11 +12,12 @@
 #include <project.h>
 #include <stdio.h>
 
-#define UART_TRACE  (0)
-#define LCD_DISPLAY (0)
+#define UART_TRACE      (0)
+#define LCD_DISPLAY     (0)
+#define CHECK_PIN_OUT   (0)
 
 #define TITLE_STR1  ("PSoC 4 DCO")
-#define TITLE_STR2  ("20160709")
+#define TITLE_STR2  ("20160719")
 
 #define SAMPLING_CLOCK           (24000000)
 #define SPIS_RX_PACKET_SIZE      (5)
@@ -50,7 +51,9 @@ void printLCD(uint8* rxBuffer)
 
 CY_ISR(ISR_Saw_handler)
 {
+    #if(CHECK_PIN_OUT)
     Pin_Check2_Write(1);
+    #endif
     
     count++;
         if (count == 0 && toChangePeriod) {
@@ -61,12 +64,16 @@ CY_ISR(ISR_Saw_handler)
  
     Timer_Sampling_ClearInterrupt(Timer_Sampling_INTR_MASK_TC);
     
+    #if(CHECK_PIN_OUT)
     Pin_Check2_Write(0);
+    #endif
 }
 
 CY_ISR(ISR_Square_handler)
 {
+    #if(CHECK_PIN_OUT)
     Pin_Check2_Write(1);
+    #endif
     
     count++;
     if (count == 0 && toChangePeriod) {
@@ -77,13 +84,13 @@ CY_ISR(ISR_Square_handler)
     
     Timer_Sampling_ClearInterrupt(Timer_Sampling_INTR_MASK_TC);
 
+    #if(CHECK_PIN_OUT)
     Pin_Check2_Write(0);    
+    #endif
 }
 
 void doCommand(uint8 *rxBuffer)
 {
-    //uint16 timerPeriod;
-    
     if (waveShape != rxBuffer[1]) {
         waveShape = rxBuffer[1];
         switch (waveShape) {
@@ -101,7 +108,6 @@ void doCommand(uint8 *rxBuffer)
     
     timerPeriod = (uint64)SAMPLING_CLOCK * 10 / (frequency10 * 256);
     toChangePeriod = 1;
-    //Timer_Sampling_WritePeriod(timerPeriod);
 }
 
 void SPI_RX_handler()
@@ -109,7 +115,9 @@ void SPI_RX_handler()
     uint8 rxBuffer[SPIS_RX_PACKET_SIZE];
     int i;
     
+    #if(CHECK_PIN_OUT)
     Pin_Check1_Write(1);
+    #endif
     
     rxBuffer[0] = SPIS_SpiUartReadRxData();
     if (SPIS_RX_PACKET_HEADER == rxBuffer[0]) {
@@ -121,7 +129,9 @@ void SPI_RX_handler()
     
     SPIS_ClearRxInterruptSource(SPIS_INTR_RX_FIFO_LEVEL);
     
+    #if(CHECK_PIN_OUT)
     Pin_Check1_Write(0);
+    #endif
 }
 
 int main()

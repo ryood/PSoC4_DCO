@@ -223,34 +223,10 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\ISR_Timer_Sampling</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\ISR_Timer_Sampling\ISR_Timer_Sampling.c</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\ISR_Timer_Sampling\ISR_Timer_Sampling.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\LCD_Char</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\LCD_Char\LCD_Char.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\LCD_Char\LCD_Char.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\LCD_Char\LCD_Char_PM.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\LCD_Char_LCDPort</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\LCD_Char_LCDPort\LCD_Char_LCDPort.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\LCD_Char_LCDPort\LCD_Char_LCDPort.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\LCD_Char_LCDPort\LCD_Char_LCDPort_aliases.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\LCD_Char_LCDPort\LCD_Char_LCDPort_PM.c</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Opamp_IV_Conv</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Opamp_IV_Conv\Opamp_IV_Conv.c</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Opamp_IV_Conv\Opamp_IV_Conv.h</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Opamp_IV_Conv\Opamp_IV_Conv_PM.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check1</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check1\Pin_Check1.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check1\Pin_Check1.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check1\Pin_Check1_aliases.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check1\Pin_Check1_PM.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check2</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check2\Pin_Check2.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check2\Pin_Check2.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check2\Pin_Check2_aliases.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check2\Pin_Check2_PM.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check3</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check3\Pin_Check3.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check3\Pin_Check3.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check3\Pin_Check3_aliases.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Check3\Pin_Check3_PM.c</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Follower</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Follower\Pin_Follower.c</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Pin_Follower\Pin_Follower.h</v>
@@ -305,33 +281,6 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Timer_Sampling\Timer_Sampling.c</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Timer_Sampling\Timer_Sampling.h</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\Timer_Sampling\Timer_Sampling_PM.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART_BOOT.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART_BOOT.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART_PINS.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART_PM.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART_PVT.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART_SPI_UART.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART_SPI_UART.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART_SPI_UART_INT.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART_SPI_UART_PVT.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART_UART.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART\UART_UART_BOOT.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_rx</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_rx\UART_rx.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_rx\UART_rx.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_rx\UART_rx_aliases.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_rx\UART_rx_PM.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_SCBCLK</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_SCBCLK\UART_SCBCLK.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_SCBCLK\UART_SCBCLK.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_tx</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_tx\UART_tx.c</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_tx\UART_tx.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_tx\UART_tx_aliases.h</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\UART_tx\UART_tx_PM.c</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\cycodeshareexport.ld</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\cycodeshareimport.ld</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Generated_Source\PSoC4\cycodeshareimport.scat</v>
@@ -934,19 +883,9 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\IDAC8.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\IDAC8_PM.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\ISR_Timer_Sampling.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_LCDPort_PM.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\LCD_Char_PM.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Opamp_IV_Conv.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Opamp_IV_Conv_PM.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check1.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check1_PM.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check2.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check2_PM.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check3.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Check3_PM.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Follower.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Follower_PM.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_IDAC8_Out.lst</v>
@@ -970,18 +909,6 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIS_ss_s_PM.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Timer_Sampling_PM.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx_PM.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SCBCLK.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx_PM.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART.lst</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART_BOOT.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.elf</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.hex</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CortexM0\ARM_GCC_493\Debug\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.map</v>
@@ -1230,7 +1157,6 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\System Reference Guides</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\System Reference Guides\cy_boot_v5_30</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\System Reference Guides\cy_lfclk_v1_0</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\CharLCD_v2_20.pdf</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\cy_clock_v2_20.pdf</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\cy_isr_v1_70.pdf</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\cy_pins_v2_20</v>
@@ -1239,8 +1165,7 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\IDAC_P4_v1_10.pdf</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\OpAmp_P4_v1_20.pdf</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\Resistor_v1_0.pdf</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\SCB_P4_v3_10</v>
-<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\SCB_P4_v3_10\SCB_P4_v3_10.pdf</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\SCB_P4_v3_10.pdf</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test\TCPWM_P4_v2_10.pdf</v>
 <v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test</v>
 <v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\PSoC 4 Architecture TRM</v>
