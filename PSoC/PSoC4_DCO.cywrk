@@ -3,7 +3,7 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspc" version="5" xml_contents_version="3" name="PSoC4_DCO" persistent="" platform="NOT_USED">
-<current_project name=".\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.cydsn\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.cyprj" />
+<current_project name=".\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydsn\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
@@ -14,6 +14,7 @@
 <v>.\PSoC4_DCO_for_NucleoF401RE.cydsn\PSoC4_DCO_for_NucleoF401RE.cyprj</v>
 <v>.\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.cydsn\PSoC4_DCO_for_NucleoF401RE_Interrupt_Test.cyprj</v>
 <v>.\PSoC4_DCO_No_SPI_Interrupt_Test.cydsn\PSoC4_DCO_No_SPI_Interrupt_Test.cyprj</v>
+<v>.\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydsn\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cyprj</v>
 </projects>
 <workspace_id v="04a73ceb-89ce-4094-a28f-56d3c91b8967" />
 <WriteAppVersionLastSavedWith v="3.3.0.9604" />
