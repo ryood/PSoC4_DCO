@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\Generated_Source">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydwr">
 <ExpandedNodeIds>
 <v>PSoC4_DCO</v>
 <v>PSoC4_DCO\I2C_Slave_Test\TopDesign</v>
@@ -24,6 +24,7 @@
 <v>PSoC4_DCO\PSoC4_DCO_No_SPI_Interrupt_Test\TopDesign</v>
 <v>PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE</v>
 <v>PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\TopDesign</v>
+<v>PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\Source Files</v>
 <v>PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\Generated_Source\PSoC4</v>
 <v>PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\Generated_Source\PSoC4\Bootloadable</v>
 <v>PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\Generated_Source\PSoC4\Bootloadable\Bootloadable.c</v>
@@ -45,6 +46,7 @@
 <v>PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydwr</v>
 <v>PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\Header Files</v>
 <v>PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\Source Files</v>
+<v>PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\Source Files\main.c</v>
 <v>PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\Generated_Source</v>
 <v>PSoC4_DCO\PSoC4_SPI_Slave_Test</v>
 </VisibleNodeIds>
@@ -922,6 +924,7 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydsn\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydwr" />
 </OpenDocs>
 <config v="Debug" />
 <AutoUpdate v="true" />
