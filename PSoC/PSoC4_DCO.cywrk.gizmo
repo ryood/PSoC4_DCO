@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydwr">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC4_DCO\PSoC4_PrototypingKit_DCO_for_NucleoF401RE\Source Files\main.c">
 <ExpandedNodeIds>
 <v>PSoC4_DCO</v>
 <v>PSoC4_DCO\I2C_Slave_Test\TopDesign</v>
@@ -925,6 +925,7 @@
 <OpenDocs>
 <name v=".\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydsn\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydwr" />
+<name v=".\PSoC4_PrototypingKit_DCO_for_NucleoF401RE.cydsn\main.c" />
 </OpenDocs>
 <config v="Debug" />
 <AutoUpdate v="true" />
