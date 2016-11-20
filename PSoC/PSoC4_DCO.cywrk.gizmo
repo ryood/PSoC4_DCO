@@ -724,6 +724,8 @@
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_Sampling.lst</v>
 <v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC4_DCO\PSoC4_DCO\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -909,6 +911,8 @@
 <v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\SCB_P4_v3_10\SCB_P4_v3_10.pdf</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_Arduino_Sequencer_Nokia5110\TCPWM_P4_v2_10.pdf</v>
 <v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\PSoC 4 Architecture TRM</v>
+<v>PSoC4_DCO\PSoC4_DCO_for_NucleoF401RE\PSoC 4200 Family Datasheet</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
